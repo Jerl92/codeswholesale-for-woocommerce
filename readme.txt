@@ -2,8 +2,8 @@
 Contributors: Devteam CodesWholesale
 Tags: woocommerce, api , codeswholesale api, digital games, digital games to sell, cd-keys, automated game delivery, digital game catalogue, digital product catalogue, automated game supply chain, digital products, digital products to sell
 Requires at least: 4.4.0
-Tested up to: 4.9.2
-Stable tag: 2.4.4
+Tested up to: 5.0.1
+Stable tag: 2.6.5
 License: Apache License Version 2.0, January 2004
 License URI: http://www.apache.org/licenses/
 
@@ -33,11 +33,11 @@ Our automated games supply chain is supported by the API-based technology.
 
 *Sync your product listing with CodesWholesale*
 
-Connect your store to CodesWholesale.com and import hundreds of digital products into your store. It’s fast and hassle-free!
+Connect your store to CodesWholesale.com and import hundreds of digital products into your store. ItĂ˘ÂÂs fast and hassle-free!
 
 *Error and order notifications via email*
 
-You may want to keep an eye on what’s going on in your store, be it orders or errors. With CodesWholesale, you’re always on the right side of things!
+You may want to keep an eye on whatĂ˘ÂÂs going on in your store, be it orders or errors. With CodesWholesale, youĂ˘ÂÂre always on the right side of things!
 
 *Low balance notifications*
 
@@ -57,15 +57,15 @@ Want to check the details of your past orders? Get a full overview of your fulfi
 
 *New filter options*
 
-The next time you want to import products from CodesWholesale, you’ll see the inclusion of new filters. Narrow down your search by platform, region, language, and date.
+The next time you want to import products from CodesWholesale, youĂ˘ÂÂll see the inclusion of new filters. Narrow down your search by platform, region, language, and date.
 
 *Import products into CSV file*
 
-OK, so you’ve applied the right filter and need to export the products to an external management system? Download them as a CSV file and you’re ready to go!
+OK, so youĂ˘ÂÂve applied the right filter and need to export the products to an external management system? Download them as a CSV file and youĂ˘ÂÂre ready to go!
 
-*Rate the risk of your clients’ orders*
+*Rate the risk of your clientsĂ˘ÂÂ orders*
 
-Not all orders submitted by your clients are fully secure. How do you know that? Use CodesWholesale risk score feature and have full control over your clients’ orders.
+Not all orders submitted by your clients are fully secure. How do you know that? Use CodesWholesale risk score feature and have full control over your clientsĂ˘ÂÂ orders.
 
 *Download invoice in pdf*
 
@@ -85,9 +85,9 @@ Or disable them if you want. With this option, you are free to test demand by se
 
 *Win a customer with charm prices*
 
-You must have heard that any price that ends in “9” compels customers to buy. From now on, the option of charm prices can be active in your Woocommerce store!
+You must have heard that any price that ends in Ă˘ÂÂ9Ă˘ÂÂ compels customers to buy. From now on, the option of charm prices can be active in your Woocommerce store!
 
-Best of all, it’s absolutely free!
+Best of all, itĂ˘ÂÂs absolutely free!
 
 
 == Installation ==
@@ -97,7 +97,7 @@ Best of all, it’s absolutely free!
 3. Press the *button Active* in the upper right-hand corner.
 4. Go to the CodesWholesale.com panel to configure your plugin settings.
 
-Now, you’re ready to go!
+Now, youĂ˘ÂÂre ready to go!
 
 == Frequently Asked Questions ==
 
@@ -129,7 +129,7 @@ PHP 7.0 or above is required. Everything will work seamlessly if you stick to th
 
 = Where can I get help? =
 
-You have questions, we have answers. Be sure to visit our recent post [here](https://codeswholesale.com/blog/api-2-0-for-woocommerce-store-owners/) and learn about all the latest features added to the plugin. You can always search the question bank in our [FAQ](https://codeswholesale.com/faq/reseller) and if you’re still in doubt, please reach us out via email: devteam@codeswholesale or skype: devteam.codeswholesale. We’d love to help!
+You have questions, we have answers. Be sure to visit our recent post [here](https://codeswholesale.com/blog/api-2-0-for-woocommerce-store-owners/) and learn about all the latest features added to the plugin. You can always search the question bank in our [FAQ](https://codeswholesale.com/faq/reseller) and if youĂ˘ÂÂre still in doubt, please reach us out via email: devteam@codeswholesale or skype: devteam.codeswholesale. WeĂ˘ÂÂd love to help!
 
 = What themes work well with CodesWholesale? =
 
@@ -190,3 +190,29 @@ What you get with API 2.0:
 = 2.4.4 =
 
 - Server check for PHP declared variable (added)
+
+= 2.5.4 =
+
+- Improved currency converter (added)
+- Bugfixes for import and product updates (fixed)
+
+= 2.6 =
+- New, improved import procedure independent from exec() function
+
+= 2.6.1 =
+- Database validation fix
+
+= 2.6.2 =
+- inStockDaysAgo import fix
+
+= 2.6.3 =
+- Fix to excess recursion during import
+
+= 2.6.4 =
+- Security endpoint bug fix
+
+= 2.6.5 =
+- Currency not importing bug fix
+
+= 2.6.6 =
+- Currency does not exchange bug fix
