@@ -393,10 +393,7 @@ final class CodesWholesale
      */
     public function get_options()
     {
-        if (count($this->plugin_options) == 0) {
-            $this->plugin_options = get_option(CodesWholesaleConst::OPTIONS_NAME);
-        }
-
+        $this->plugin_options = get_option(CodesWholesaleConst::OPTIONS_NAME);
         return $this->plugin_options;
     }
     
