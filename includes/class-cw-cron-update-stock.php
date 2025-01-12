@@ -559,6 +559,6 @@ add_action( 'init', function () {
 	add_action( 'codeswholesale_update_stock_action', 'cron_job' );
 
 	if (!wp_next_scheduled( 'codeswholesale_update_stock_action' ) ) {
-		wp_schedule_single_event( strtotime('+2 minutes'), 'codeswholesale_update_stock_action' );
+		wp_schedule_single_event( strtotime('+72 hours'), 'codeswholesale_update_stock_action' );
 	}
 });
