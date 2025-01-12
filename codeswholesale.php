@@ -274,7 +274,7 @@ final class CodesWholesale
         // Cron Job
         include_once( 'includes/abstracts/class-cw-cron-job.php');
         include_once( 'includes/class-cw-cron-update-stock.php');
-        
+
         if (is_admin()) {
             include_once('includes/admin/class-cw-admin.php');
         }
@@ -393,7 +393,8 @@ final class CodesWholesale
      */
     public function get_options()
     {
-        $this->plugin_options = get_option(CodesWholesaleConst::OPTIONS_NAME);
+            $this->plugin_options = get_option(CodesWholesaleConst::OPTIONS_NAME);
+
         return $this->plugin_options;
     }
     

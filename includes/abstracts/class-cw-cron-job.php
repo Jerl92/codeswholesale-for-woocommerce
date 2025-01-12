@@ -10,12 +10,12 @@ abstract class CW_Cron_Job
     {
         $this->type_name = $type_name;
 
-        add_filter('cron_schedules', array($this, 'get_interval'));
+       /* add_filter('cron_schedules', array($this, 'get_interval'));
 
         register_activation_hook(CW_PLUGIN_FILE, array($this, 'schedule_update'));
         register_deactivation_hook(CW_PLUGIN_FILE, array($this, 'remove_schedule'));
 
-        add_action($this->type_name, array($this, 'cron_job'));
+        add_action($this->type_name, array($this, 'cron_job')); */
     }
 
     /**
