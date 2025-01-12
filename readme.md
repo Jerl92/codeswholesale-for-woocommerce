@@ -9,7 +9,7 @@ License URI: http://www.apache.org/licenses/
 
 CodesWholesale.com integration plugin for WooCommerce.
 
-<img style="max-width: 100%;" src="https://i.ibb.co/M94s2n1/g1jeu-cron.png" data-canonical-src="https://i.ibb.co/M94s2n1/g1jeu-cron.png" />
+<img style="max-width: 100%;" src="https://i.ibb.co/QHXX3FP/cwgif.gif" data-canonical-src="https://i.ibb.co/QHXX3FP/cwgif.gif" />
 
 == Description ==
 
